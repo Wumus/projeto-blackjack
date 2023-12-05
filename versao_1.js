@@ -1,44 +1,24 @@
-console.log("Boas vindas ao jogo de BlackJack!")
+/* if (confirm("Quer iniciar uma nova rodada?")) {
 
-if (confirm("Quer iniciar uma nova rodada?")) { 
-   const cartaUsuario1 = comprarCarta()
-   const cartaUsuario2 = comprarCarta()
+  alert("Bem vindo ao jogo de BlackJack!")
+  const userCard1 = comprarCarta()
+  const userCard2 = comprarCarta()
+  const botCard1  = comprarCarta()
+  const botCard2  = comprarCarta()
+  let userScore = userCard1.valor + userCard2.valor
+  let botScore  = botCard1.valor + botCard2.valor
 
-   const cartaComputador1 = comprarCarta()
-   const cartaComputador2 = comprarCarta()
+  alert(`Usuário - cartas: ${userCard1.texto} ${userCard2.texto}  - pontuação ${userScore}  \nComputador - cartas: ${botCard1.texto} ${botCard2.texto} - pontuação ${botScore}`)
 
-   const pontuacaoUsuario = cartaUsuario1.valor + cartaUsuario2.valor
-   const pontuacaoComputador = cartaComputador1.valor + cartaComputador2.valor
-
-   console.log(`Usuário - cartas: ${cartaUsuario1.texto} ${cartaUsuario2.texto} - pontuação ${pontuacaoUsuario}`);
-   console.log(`Computador - cartas: ${cartaComputador1.texto} ${cartaComputador2.texto} - pontuação ${pontuacaoComputador}`);
-   
-   if (pontuacaoUsuario > pontuacaoComputador){
-     console.log("O usuário ganhou!")
-   
-      } else if (pontuacaoComputador > pontuacaoUsuario) {
-         console.log("O computador ganhou!")
-         
-         } else if (pontuacaoComputador === pontuacaoUsuario) {
-            console.log("Empatou!")
-            
-            } else {
-            
+  if(userScore > botScore && userScore < 22){
+    alert("Usuário venceu!")
+    } else if (botScore > userScore && botScore < 22) {
+      alert("Computador venceu!")
+      } else if (userScore === botScore && userScore <= 21 && botScore <= 21) {
+        alert("Empatou!")
+  } else {
+    alert("O jogo acabou!")
 }
-      
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
- } else { 
-   console.log("O jogo acabou!") 
- } 
+*/
